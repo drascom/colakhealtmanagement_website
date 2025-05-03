@@ -1,0 +1,228 @@
+/* Custom hover effects for all shadow-box elements */
+
+/* Apply hover effect to all shadow-box elements */
+.shadow-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Make sure the about-btn becomes visible on hover for all info-box elements */
+.info-box .about-btn {
+    opacity: 0.2;
+    transition: .3s;
+    display: inline-block;
+}
+
+.info-box:hover .about-btn {
+    opacity: 1;
+}
+
+/* Add hover effect to service boxes */
+.service-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to team member boxes */
+.team-member-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to testimonial boxes */
+.testimonial-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-crenditials-box */
+.about-crenditials-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-crenditials-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-project-box */
+.about-project-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-blog-box */
+.about-blog-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-blog-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-services-box */
+.about-services-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-services-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-profile-box */
+.about-profile-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-profile-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-client-box */
+.about-client-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-client-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to about-contact-box */
+.about-contact-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-contact-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to service-details-box */
+.service-details-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-details-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect to cta-box */
+.cta-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Fix padding and margin issues in service-details-box */
+.service-details-box {
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.service-details-box h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.service-details-box .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.service-details-box .col-md-6 {
+    position: relative;
+    padding: 15px;
+}
+
+.service-details-box .about-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 10;
+}
+
+.service-details-box .service-feature-list {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.service-details-box .service-feature-list li {
+    margin-bottom: 15px;
+    color: #ffffff;
+    opacity: 0.8;
+    position: relative;
+    padding-left: 15px;
+}
+
+.service-details-box .service-feature-list li:last-child {
+    margin-bottom: 0;
+}
+
+.service-details-box .service-feature-list li:before {
+    content: "•";
+    position: absolute;
+    left: -5px;
+    color: var(--primary_color);
+}
+
+.service-details-box img.img-fluid {
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+/* Position the SVG button correctly */
+.service-details-box .col-md-6>div {
+    position: relative;
+    height: 100%;
+}
+
+.service-details-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Fix CTA box styling */
+.cta-box.shadow-box {
+    padding: 40px !important;
+}
+
+.cta-box h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.cta-box .about-btn {
+    display: inline-block;
+    margin-top: 15px;
+}
